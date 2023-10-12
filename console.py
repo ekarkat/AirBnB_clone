@@ -4,6 +4,12 @@
 
 import cmd
 from models.base_model import BaseModel
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
+from models.state import State
+from models.user import User
+
 
 class HBNBCommand(cmd.Cmd):
     """ cmd class """
@@ -52,9 +58,11 @@ class HBNBCommand(cmd.Cmd):
                 print("** instance id missing **")
             else:
                 key_obj = "{}.{}".format(cls_name, args[1])
-		# a terminer apres la creation de la classe storage
-
-
+		all_objs = storage.all()
+                if key_obj in all_objs:
+                    print(all_objs[key_obj])
+                else:
+                    print("** no instance found **")
 
 
 

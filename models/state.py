@@ -2,7 +2,8 @@
 """ Modul State Class"""
 
 
-from model.base_modle import BaseModel
+from models.base_model import BaseModel
+
 
 class State(BaseModel):
     """
