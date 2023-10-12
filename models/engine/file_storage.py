@@ -13,13 +13,12 @@ class FileStorage:
     def all(self):
         """returns the dictionary __objects"""
         return (FileStorage.__objects)
-    
+
     def new(self, obj):
         """sets in __objects the obj with key <obj class name>.id"""
         FileStorage.__objects[str(obj.__class__.__name__ + "." + str(obj.id))] = obj
 
     def save(self):
-
         obj_dic = {}
         for key, obj in FileStorage.__objects.items():
             obj_dic[key] = obj.to_dict()
