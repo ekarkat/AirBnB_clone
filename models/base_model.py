@@ -39,12 +39,19 @@ class BaseModel:
         return string
 
     def save(self):
+        """
+         updates the public instance attribute
+         and save using storage
+        """
         self.updated_at = datetime.now()
         models.storage.save()
 
     def to_dict(self):
+        """
+        returns a dictionary containing all keys/values of __dict__
+        """
         obj_dic = {
-            **self.__dict__, "__class__": str(__class__.__name__),
+            **self.__dict__, "__class__": str(self.__class__.__name__),
             "created_at": self.created_at.isoformat(),
             "updated_at": self.updated_at.isoformat()
         }
