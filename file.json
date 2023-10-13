@@ -1,0 +1,21 @@
+{
+    "BaseModel.d3b117f5-2c93-49ee-b40c-f485b0297a0e": {
+        "id": "d3b117f5-2c93-49ee-b40c-f485b0297a0e",
+        "created_at": "2023-10-13T14:10:56.499800",
+        "updated_at": "2023-10-13T14:11:51.170084",
+        "first_name": "\"Betty\"",
+        "__class__": "BaseModel"
+    },
+    "BaseModel.04c2e192-322b-45f9-b25b-3550152d5ba2": {
+        "id": "04c2e192-322b-45f9-b25b-3550152d5ba2",
+        "created_at": "2023-10-13T14:12:45.885979",
+        "updated_at": "2023-10-13T14:12:45.885990",
+        "__class__": "BaseModel"
+    },
+    "User.3c2ee189-c0b8-43c5-b467-8a8b6d3f6019": {
+        "id": "3c2ee189-c0b8-43c5-b467-8a8b6d3f6019",
+        "created_at": "2023-10-13T14:24:57.090928",
+        "updated_at": "2023-10-13T14:24:57.090941",
+        "__class__": "BaseModel"
+    }
+}
