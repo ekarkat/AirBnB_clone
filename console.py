@@ -84,6 +84,17 @@ class HBNBCommand(cmd.Cmd):
                     del all_objs[key_obj]
 
 
+    def do_all(self, arg):
+        args = arg.split
+        all_objs = storage.all()
+        if not args:
+            print(list(map(str, all_objs.values())))
+
+        if args[0] not in HBNBCommand.cls:
+                print("** class doesn't exist **")
+
+        objs_cls = [str(obj) for key, obj in all_objs.items() if key.startswith(class_name + ".")]
+        print(objs_cls)
 
 
 
