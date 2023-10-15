@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module Amenity Class
+Module Amenity Class.
 """
 
 
