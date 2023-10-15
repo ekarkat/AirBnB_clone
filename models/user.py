@@ -9,10 +9,10 @@ class User(BaseModel):
     """ userclass representation
 
         args:
-            email : email of the user
-            password : password of the user
-            first_name : first name of the user
-            last_name : last name of the user
+            email (str): email of the user
+            password (str): password of the user
+            first_name (str): first name of the user
+            last_name (str): last name of the user
  """
 
     email = ""
