@@ -4,7 +4,7 @@
 import json
 
 class Home():
-    """ """
+    """ home """
     attr1 = "none"
     attr2 = 13
     dic = {}
