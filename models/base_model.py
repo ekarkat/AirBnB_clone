@@ -40,10 +40,12 @@ class BaseModel:
         return string
 
     def save(self):
+        """ save """
         self.updated_at = datetime.now()
         models.storage.save()
 
     def to_dict(self):
+        """ to dictionnarie """
         obj_dic = {
             **self.__dict__, "__class__": str(__class__.__name__),
             "created_at": self.created_at.isoformat(),
