@@ -12,6 +12,6 @@ class Amenity(BaseModel):
     Amenity class representation
 
     args:
-        name : name of Amenity.
+        name (str): name of Amenity.
     """
     name = ""
