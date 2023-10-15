@@ -10,6 +10,6 @@ class State(BaseModel):
     State class representations
 
     args:
-        name : name of the state
+        name (str): name of the state
     """
     name = ""
