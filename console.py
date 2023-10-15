@@ -87,22 +87,6 @@ class HBNBCommand(cmd.Cmd):
                 if key_object in all_objects:
                     del all_objects[key_object]
 
-
-    def do_all(self, arg):
-        """
-        Prints all string representation of all instances based or not on the class name
-        """
-        args = arg.split()
-        all_objects = storage.all()
-        if not args:
-            print(list(map(str, all_objs.values())))
-
-        if args[0] not in HBNBCommand.cls:
-                print("** class doesn't exist **")
-
-        objects_cls = [str(obj) for key, obj in all_objects.items() if key.startswith(class_name + ".")]
-        print(objects_cls)
-
     def do_all(self, arg):
         """Prints all string representation of all instances."""
         args = arg.split()
