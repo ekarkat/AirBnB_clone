@@ -19,7 +19,7 @@ class FileStorage:
         self.__objects[str(obj.__class__.__name__ + "." + str(obj.id))] = obj
 
     def save(self):
-        """ save the file"""
+        """ save the file """
         obj_dic = {}
         for key, obj in self.__objects.items():
             obj_dic[key] = obj.to_dict()
