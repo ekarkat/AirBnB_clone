@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Console 0.0.1 """
+""" Console finished """
 
 
 import cmd
