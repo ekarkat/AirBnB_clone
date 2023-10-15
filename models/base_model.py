@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Parent class"""
+"""Parent class Module."""
 import models
 import uuid
 from datetime import datetime
