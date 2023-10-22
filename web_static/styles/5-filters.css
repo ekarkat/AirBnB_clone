@@ -33,25 +33,24 @@ button:hover {
 
 .locations {
     border-right: 1px solid #DDDDDD;
-	display: inline-block;
+	display: inline-block; /* make the block appear on the same line */
 	margin: auto 0px auto 47px;
 }
 .amenities {
-	display: inline-block;
+	display: inline-block; /* make the block appear on the same line */
 	margin: auto 0px auto 47px;
 }
+
 
 .locations h3,
 .amenities h3 {
     font-weight: 600;
-    margin: 20px 0px 0px 0px;
-    text-align: left;
+    margin: 18px 0px 0px 0px; /* the h3 heading margine should also be managed here */
 }
 
 .locations h4,
 .amenities h4 {
     font-weight: 400;
     font-size: 14px;
-    margin: 0px 0px 0px 0px;
-    text-align: left;
+    margin: 0px 0px 0px 0px; /* the h4 heading margine should also be managed here */
 }
