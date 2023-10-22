@@ -1,6 +1,6 @@
 # 0x01. AirBnB Clone - Web Static
 
-![AirBnB Clone Logo](url-to-image)
+![AirBnB Clone Logo](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png)
 
 **By: Guillaume**
 **Weight: 1**
@@ -70,17 +70,6 @@ In this phase of the AirBnB Clone project, you will be developing the front-end 
 3. Populate the pages with dummy content.
 4. Note that no JavaScript will be used, and no data will be fetched from external sources. HTML will define the structure, and CSS will handle the styling.
 
-## Resources
-
-Before starting the project, consider reviewing the following resources:
-
-- [Learn to Code HTML & CSS (up to "Creating Lists" section)](url-to-resource)
-- [Inline Styles in HTML](url-to-resource)
-- [Specifics on CSS Specificity](url-to-resource)
-- [CSS SpeciFishity](url-to-resource)
-- [Introduction to HTML (MDN)](url-to-resource)
-- [CSS (MDN)](url-to-resource)
-- [Center Boxes (for layout)](url-to-resource)
 
 ## Getting Started
 
