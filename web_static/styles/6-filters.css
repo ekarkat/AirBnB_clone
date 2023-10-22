@@ -65,8 +65,8 @@ ul.popover {
     border-radius: 4px;
 	/* the negative margine helps the block to move backword to the right */
 	margin: 17px -1px 0px -48px; /* i have no idea why this works but -48 - -1 = 47 i guess thats why*/
-	list-style-type: none;
-	padding: 30px 47px; /* padding 47 = .location margine so it aligne with the padding of location divs*/
+	list-style-type: none; /* remove the bullet points */
+	padding: 28px 47px; /* padding 47 = .location margine so it aligne with the padding of location divs*/
 }
 
 /** styling list items of popover **/
@@ -78,12 +78,17 @@ ul.popover {
 /** styling list items of popover  locations h2**/
 .popover h2 {
     font-size: 16px;
-	margin: 20px 0px 5px -25px; /* moving the text to the side */
+	margin: 33px 0px 0px -25px; /* moving the text to the side */
 }
 
-/* styling list items of popover  locations under the h2**/
 div.locations ul.popover ul{
 	padding: 0px 0px 0px 0px; /* remove the padding of the ul inside the parent ul, so it alignes well as the others */
+	/* without this line the style in line 61 "ul.popover" will apply to the nested ul in location
+	which result moving the nested ul -inside the parent ul- 47px in padding to the left */
+}
+/* styling list items of popover locations the h2**/
+div.locations ul.popover{
+	padding: 5px 0px 20px 47px; /* remove the padding of the ul in location ul only */
 	
 }
 

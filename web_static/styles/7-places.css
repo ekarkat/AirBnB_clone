@@ -1,0 +1,23 @@
+
+.places {
+    text-align: center; /* to aligne the article in center  but it will aligne the text places as well*/
+}
+.places h1 {
+	font-size: 30px;
+	text-align: left; /* to aligne the text "places" to the left */
+	margin : 35px 0px 0px 10px;
+}
+.places article{
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #FF5A5F 1px solid;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.places article h2{
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0; /* removes the margin of the h2 */
+}
