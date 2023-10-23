@@ -46,7 +46,8 @@ div.price_by_night {
     font-size: 30px;
     position: relative;
     float: right;
-    top: -40px; 
+    top: -40px;
+	padding: 5px 2px 5px 8px;
 }
 
 
